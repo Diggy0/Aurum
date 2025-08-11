@@ -44,6 +44,7 @@ using Robust.Shared.Serialization.Manager;
 using Content.Shared._NF.Cloning; // Frontier
 using Content.Shared._NF.Bank.Components; // Frontier
 using Content.Server._NF.Traits.Assorted; // Frontier
+using Content.Goobstation.Shared.CloneProjector.Clone; // Aurum - Goob Gemini
 
 namespace Content.Server.Cloning
 {
@@ -214,6 +215,12 @@ namespace Content.Server.Cloning
 
             if (!_prototype.TryIndex(humanoid.Species, out var speciesPrototype))
                 return false;
+
+            if (HasComp<HolographicCloneComponent>(original) && !settings.ForceCloning) // Goobstation - This has to be separate because I don't want to touch the other check.
+                return false;
+
+            if (HasComp<UncloneableComponent>(original) && !HasComp<SiliconComponent>(original) && !settings.ForceCloning) // Goob: enable forcecloning bypass for antagctrl admemes on vox/ipc - Also goob, no cloning Silicons.
+                return false; // Goobstation: Don't clone IPCs and voxes. It could be argued it should be in the CloningPodSystem instead
 
             if (!TryComp<PhysicsComponent>(bodyToClone, out var physics))
                 return false;
