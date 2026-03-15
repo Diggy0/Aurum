@@ -1,0 +1,22 @@
+#Civilian Grade Hardsuits
+
+- type: loadout
+  id: ContractorClothingCEHardsuit
+  price: 7600
+  equipment:
+    outerClothing: ClothingOuterHardsuitEngineeringWhite
+
+- type: loadout
+  id: ContractorClothingRDHardsuit
+  price: 8000
+  equipment:
+    outerClothing: ClothingOuterHardsuitRd
+
+#Civilian Grade Modsuits
+
+- type: loadout
+  id: ContractorBackpackModsuitRD
+  price: 12500
+  equipment:
+    back: ClothingModsuitResearchDirectorPowerCell
+

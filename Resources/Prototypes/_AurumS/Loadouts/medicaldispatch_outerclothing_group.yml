@@ -1,0 +1,21 @@
+- type: loadoutGroup
+  id: MDDOuterclothing
+  name: loadout-group-contractor-outerclothing
+  minLimit: 0
+  loadouts:
+  - ContractorClothingOuterCoatLab
+  - ContractorClothingOuterCoatLabGene
+  - ContractorClothingOuterCoatLabChem
+  - ContractorClothingOuterCoatLabViro
+  - ContractorClothingOuterBioScientist
+  - ContractorClothingOuterWinterCoat
+  - ContractorClothingOuterWinterCoatLong
+  - ContractorClothingOuterWinterMed
+  - ContractorClothingOuterWinterChem
+  - ContractorClothingOuterCoatParamedicWB
+  - ContractorClothingOuterWinterPara
+  - ContractorClothingOuterCoatLabSeniorPhysician
+  - ContractorClothingOuterHardsuitVoidParamed
+  - MedicalDispatchCMOHardsuit
+  - MedicalDispatchTraumaHardsuit
+

@@ -6,7 +6,8 @@
   - MdMedicJumpsuit
   - MdMedicGloves
   - MdMedicBackpack
-  - ContractorOuterClothing
+  # - ContractorOuterClothing - Aurum - MD personnel having their own proper hardsuit section.
+  - MDDOuterclothing # Aurum - MD personnel having their own proper outer clothing section.
   - ContractorShoes
   - ContractorFace
   - ContractorGlasses

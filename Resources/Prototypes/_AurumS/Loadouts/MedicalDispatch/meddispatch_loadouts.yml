@@ -1,0 +1,34 @@
+#Medical Dispatch Hardsuits
+
+- type: loadout
+  id: MedicalDispatchCMOHardsuit
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterHardsuitMedical
+
+- type: loadout
+  id: MedicalDispatchTraumaHardsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MedicalDispatchElite
+  price: 4000
+  equipment:
+    outerClothing: ClothingOuterHardsuitTrauma
+
+- type: loadout
+  id: MedicalDispatchATUJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MedicalDispatchElite
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitATU
+
+- type: loadout
+  id: MedicalDispatchATUJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MedicalDispatchElite
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtTAF
+
+

@@ -216,11 +216,15 @@
   id: ContractorBackpack
   name: loadout-group-contractor-backpack
   loadouts:
+
   ## Mono start
   - ContractorClothingModsuitAtmostechPowerCell
   - ContractorClothingModsuitCaptainPowerCell
   - ContractorClothingModsuitEngineerPowerCell
   ## Mono end
+  ## Aurum Start
+  - ContractorBackpackModsuitRD
+  ## Aurum End
   - ContractorClothingBackpack
   - ContractorClothingBackpackDuffel
   - ContractorClothingBackpackSatchel
@@ -305,6 +309,10 @@
   - ContractorClothingOuterHardsuitVoidParamed
   - ContractorClothingOuterHardsuitUIEngineer
   - ContractorClothingOuterHardsuitUIPilot
+  ## Aurum Start
+  - ContractorClothingCEHardsuit
+  - ContractorClothingRDHardsuit
+  ## Aurum End
   ## Mono start
   - ContractorClothingOuterHardsuitAtmos
   - ContractorClothingOuterHardsuitCap

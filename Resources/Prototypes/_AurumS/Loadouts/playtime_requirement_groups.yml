@@ -1,0 +1,11 @@
+- type: loadoutEffectGroup
+  id: MedicalDispatchElite
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Medical
+      time: 72000 # 20 hours
+
+
+
