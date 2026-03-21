@@ -83,10 +83,10 @@
     - id: RogueSiliconResearchDisk5000
       prob: 0.8
     - id: RogueSiliconResearchDisk10000
-      prob: 0.1
+      prob: 0.5 # Small buff - Aurum
     # Tech disk
     - id: SpawnLootTechDisksT1
-      prob: 0.05
+      prob: 0.2 # Aurum - Small buff
     sound:
       path: /Audio/Machines/windoor_open.ogg
 
@@ -291,6 +291,10 @@
       prob: 0.1
     - id: SpawnLootTechDisksPrinterT1
       prob: 0.1
+    # Aurum Start - Your honor, whimsy.
+    - id: WeaponTeslaGun
+      prob: 0.01
+    # Aurum End
     sound:
       path: /Audio/Machines/windoor_open.ogg
 
@@ -353,5 +357,15 @@
       prob: 0.2
     - id: SpawnLootTechDisksT2Faction
       prob: 0.1
+    # Aurum - Lore loot trust fr
+    - id: OneStarGogglesThermals
+      prob: 0.6
+    - id: ClothingHeadHatOneStarOfficerCap
+      prob: 0.8
+    - id: ClothingOuterCoatOneStarUnitOfficer
+      prob: 0.8
+    - id: ClothingOuterHardsuitOneStarUnitEngineering
+      prob: 0.4
+    # Aurum - Lore loot trust fr
     sound:
       path: /Audio/Machines/windoor_open.ogg

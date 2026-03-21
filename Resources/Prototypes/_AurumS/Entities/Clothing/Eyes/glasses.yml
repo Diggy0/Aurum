@@ -1,0 +1,19 @@
+#they are called *goggles* but count as glasses because.
+
+- type: entity
+  parent: ClothingEyesThermalVisionGoggles
+  id: OneStarGogglesThermals
+  name: One star unit officer goggles
+  description: Before the main line of One Star units went rogue, operators and officers were deployed alongside them to ensure maximum combat performance, with thermal vision integrated, the pulse is intermitent as to not harm the wearer's eyes.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/Eyes/Glasses/one_star_thermals.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/Eyes/Glasses/one_star_thermals.rsi
+  - type: ThermalVision
+    flashDurationMultiplier: 8
+    pulseTime: 5
+    isEquipment: true
+    toggleAction: PulseThermalVision
+  - type: IdentityBlocker
+    coverage: EYES
