@@ -5,7 +5,7 @@
   name: syndicate naval operative bundle
   description: Loot boxes? Here?
   abstract: true
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -29,7 +29,7 @@
   name: syndicate naval operative bundle
   description: Loot boxes? Here?
   abstract: true
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   parent: SyndieMessengerGiftBox
   id: ClothingBackpackSyndicateCaptainLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -93,13 +93,21 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -123,13 +131,21 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -151,13 +167,21 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -178,6 +202,14 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -185,7 +217,7 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -209,13 +241,31 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.5
+      - id: SyndicateWhistle
+        prob: 0.6
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.5
+      - id: SyndiPDA
+        prob: 0.3
+      - id: WeaponAdvancedLaser
+        prob: 0.3
+      - id: SyndicatePersonalAI
+        prob: 0.3
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -238,13 +288,31 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -266,13 +334,31 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -294,6 +380,24 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -301,7 +405,7 @@
 - type: entity
   parent: SyndieMessengerGiftBox
   id: ClothingBackpackSyndicateCommanderLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -324,13 +428,29 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -353,13 +473,29 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -381,13 +517,29 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -406,6 +558,22 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -413,7 +581,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateOperativeLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -440,13 +608,33 @@
         prob: 0.4
       - id: WeaponRifleMR8C # mono
         prob: 0.05
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -472,13 +660,33 @@
         prob: 0.4
       - id: WeaponRifleMR8C # mono
         prob: 0.01
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -504,13 +712,33 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -532,6 +760,26 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -539,7 +787,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -560,7 +808,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -580,7 +828,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -600,7 +848,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -640,7 +888,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateMedicLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -660,13 +908,33 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -682,13 +950,33 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -703,13 +991,33 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -723,6 +1031,26 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -730,7 +1058,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateEngineerLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -762,7 +1090,7 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -789,7 +1117,7 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -815,7 +1143,7 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -841,7 +1169,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateChemwarriorLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/waterbackpack.rsi
@@ -866,13 +1194,33 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -893,13 +1241,33 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -919,13 +1287,33 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -945,6 +1333,26 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -952,7 +1360,7 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateGrenadierLootA
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -973,13 +1381,19 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootB
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -1000,13 +1414,19 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootC
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -1027,13 +1447,19 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootD
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ] #Aurum: spawnable for easier testing, im gonna crucify whoever made these unspawnable
   components:
   - type: SpawnItemsOnUse
     items:
@@ -1054,5 +1480,11 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

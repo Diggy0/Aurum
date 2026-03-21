@@ -1,0 +1,30 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatOneStarUnitOfficer
+  name: one star unit officer coat
+  description: A light orange, comfy coat once used by the officers that were deployed alongside One Star units ages ago, you feel both smart and dumb wearing this.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/OuterClothing/Coats/one_star_coat.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/OuterClothing/Coats/one_star_coat.rsi
+  - type: TemperatureProtection
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.75
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 20
+  - type: StaticPrice
+    price: 100
+    vendPrice: 500
