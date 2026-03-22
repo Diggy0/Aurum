@@ -6,13 +6,13 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using System.Linq;
-using Content.Goobstation.Maths.FixedPoint;
+using Content.Shared.FixedPoint;
 using Content.Goobstation.Shared.CloneProjector;
 using Content.Goobstation.Shared.CloneProjector.Clone;
 using Content.Server.Emp;
 using Content.Server.Ghost.Roles.Components;
-using Content.Shared._DV.Carrying;
-using Content.Shared._EinsteinEngines.Silicon.IPC;
+using Content.Server.Carrying;
+using Content.Server._EinsteinEngines.Silicon.IPC;
 using Content.Shared.Actions;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage;

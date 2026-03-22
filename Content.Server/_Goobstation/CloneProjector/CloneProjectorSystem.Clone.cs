@@ -6,7 +6,7 @@
 
 using Content.Goobstation.Shared.CloneProjector.Clone;
 using Content.Server.Emp;
-using Content.Shared._Shitmed.Medical.Surgery.Wounds.Components;
+// using Content.Shared._Shitmed.Medical.Surgery.Wounds.Components;
 using Content.Shared._Shitmed.Targeting;
 using Content.Shared.Body.Systems;
 using Content.Shared.Examine;
@@ -21,27 +21,27 @@ public partial class CloneProjectorSystem
     [Dependency] private readonly SharedBodySystem _body = default!;
     public void InitializeClone()
     {
-        SubscribeLocalEvent<HolographicCloneComponent, MapInitEvent>(OnInit);
+//        SubscribeLocalEvent<HolographicCloneComponent, MapInitEvent>(OnInit);
 
         SubscribeLocalEvent<HolographicCloneComponent, MobStateChangedEvent>(OnCloneStateChanged);
         SubscribeLocalEvent<HolographicCloneComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<HolographicCloneComponent, EmpPulseEvent>(OnEmpPulse);
     }
 
-    private void OnInit(Entity<HolographicCloneComponent> clone, ref MapInitEvent args)
-    {
-        foreach (var part in _body.GetBodyChildren(clone))
-        {
-            if (!TryComp(part.Id, out WoundableComponent? woundable))
-                continue;
-
-            woundable.CanRemove = false;
-            woundable.CanBleed = false;
-            woundable.AllowWounds = false;
-
-            Dirty(part.Id, woundable);
-        }
-    }
+//    private void OnInit(Entity<HolographicCloneComponent> clone, ref MapInitEvent args)
+//    {
+//        foreach (var part in _body.GetBodyChildren(clone))
+//        {
+//            if (!TryComp(part.Id, out WoundableComponent? woundable))
+//                continue;
+//
+//            woundable.CanRemove = false;
+//            woundable.CanBleed = false;
+//            woundable.AllowWounds = false;
+//
+//            Dirty(part.Id, woundable);
+//        }
+//    }
     private void OnCloneStateChanged(Entity<HolographicCloneComponent> clone, ref MobStateChangedEvent args)
     {
         if (!_mobState.IsIncapacitated(clone)

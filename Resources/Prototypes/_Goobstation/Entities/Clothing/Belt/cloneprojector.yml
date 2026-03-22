@@ -129,7 +129,7 @@
     - type: ItemSlots # No infinite batteries.
 
 - type: entity
-  parent: [ ClothingBeltBaseCloneProjector, BaseGrandTheftContraband ]
+  parent: ClothingBeltBaseCloneProjector
   id: ClothingBeltGeminiHoloProjector
   name: ax-32 "gemini" holo-projector rig
   description: A highly advanced holo-projector rig that interfaces directly with the users spinal cord to generate an exact copy of them. Truly a marvel of Nanotrasen technology.
@@ -138,8 +138,8 @@
     sprite: _Goobstation/Clothing/Belt/geminiprojector.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Belt/geminiprojector.rsi
-  - type: StealTarget
-    stealGroup: ClothingBeltGeminiHoloProjector
+#  - type: StealTarget # Aurum - Nuh Uh Uh
+#    stealGroup: ClothingBeltGeminiHoloProjector
   - type: CloneProjector
     clonedItemBlacklist:
       components:
