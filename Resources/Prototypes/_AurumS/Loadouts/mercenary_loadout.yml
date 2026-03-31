@@ -33,7 +33,7 @@
 - type: loadout
   id: BlackAndRedUniform
   equipment:
-    jumpsuit: BlackRedUniform
+    jumpsuit: ClothingUniformBlackRedSecUniform
 
 - type: loadout
   id: BloodredPyjamas
