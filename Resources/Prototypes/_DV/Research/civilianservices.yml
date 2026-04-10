@@ -15,9 +15,7 @@
 - type: technology
   id: BasicAugmentation
   name: research-technology-basic-augmentation
-  icon:
-    sprite: _DV/Objects/Augments/power.rsi
-    state: cell
+  entityIcon: AugmentPowerCellSlot
   discipline: CivilianServices
   tier: 2
   cost: 5000
@@ -26,14 +24,12 @@
   - AugmentRechargerCasing
   technologyPrerequisites: # Aurum change - Make it consistent.
   - CyberneticEnhancements
-  position: -2, 13
+  position: -3, 12
 
 - type: technology
   id: ImplantedTools
   name: research-technology-implanted-tools
-  icon:
-    sprite: _DV/Objects/Augments/arm.rsi
-    state: base
+  entityIcon: AugmentToolPanelCasingCables
   discipline: CivilianServices
   tier: 2
   cost: 10000
@@ -45,4 +41,4 @@
   - AugmentPaperworkPanelElectronics
   technologyPrerequisites: # Aurum change - Make it consistent.
   - BasicAugmentation
-  position: -2, 14
+  position: -3, 13
