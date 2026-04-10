@@ -19594,3 +19594,10 @@ Entries:
   id: 2161
   time: '2026-04-10T12:25:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3586
+- author: AntoineXYZ
+  changes:
+    - type: Fix
+      message: Fixed chat highlighting not working for radio messages
+  id: 2162
+  time: '2026-04-10T12:39:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3711
