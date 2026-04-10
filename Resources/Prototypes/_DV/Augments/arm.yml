@@ -9,12 +9,12 @@
   - type: AugmentArm
 
 - type: entity
-  parent: [ActionOpenAugmentInterface, BaseAction]
+  parent: ActionOpenAugmentInterface
   id: ActionOpenToolsPanel
   name: Open tools panel
   description: Access the tools implanted within you
   components:
-  - type: Action
+  - type: InstantAction
     icon: { sprite: Clothing/Belt/utility.rsi, state: icon }
 
 - type: entity
