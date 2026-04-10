@@ -1,6 +1,5 @@
 using Content.Shared._Shitmed.Body.Organ;
 using Content.Shared.Actions;
-using Content.Shared.Actions.Components;
 using Content.Shared.Body.Organ;
 
 namespace Content.Shared._DV.Augments;
@@ -29,7 +28,7 @@ public sealed class AugmentActionSystem : EntitySystem
             var ev = new GetItemActionsEvent(_actionContainer, body, augment);
             RaiseLocalEvent(augment, ev);
 
-            _actions.GrantActions(body, ev.Actions, augment.Owner);
+            _actions.GrantActions(body, ev.Actions, augment, actionsComponent);
         }
         else
         {
