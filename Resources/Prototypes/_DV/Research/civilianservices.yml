@@ -11,3 +11,34 @@
   technologyPrerequisites:
   - IndustrialMedicine
   position: -5, 11
+
+- type: technology
+  id: BasicAugmentation
+  name: research-technology-basic-augmentation
+  entityIcon: AugmentPowerCellSlot
+  discipline: CivilianServices
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - AugmentPowerCellSlotCasing
+  - AugmentRechargerCasing
+  technologyPrerequisites: # Aurum change - Make it consistent.
+  - CyberneticEnhancements
+  position: -3, 12
+
+- type: technology
+  id: ImplantedTools
+  name: research-technology-implanted-tools
+  entityIcon: AugmentToolPanelCasingCables
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - AugmentToolPanelCasing
+  - AugmentUtilityPanelElectronics
+  - AugmentBotanyPanelElectronics
+  - AugmentSurgeryPanelElectronics
+  - AugmentPaperworkPanelElectronics
+  technologyPrerequisites: # Aurum change - Make it consistent.
+  - BasicAugmentation
+  position: -3, 13
