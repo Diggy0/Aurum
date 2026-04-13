@@ -19739,3 +19739,14 @@ Entries:
   id: 2179
   time: '2026-04-13T15:25:26.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3741
+- author: Svarshik
+  changes:
+    - type: Tweak
+      message: >-
+        Armor plates can be put in modsuits chestplate, increased modsuit
+        storage to satchel.
+    - type: Fix
+      message: 'Fixed invisible modsuit magboots '
+  id: 2180
+  time: '2026-04-13T15:39:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3733
