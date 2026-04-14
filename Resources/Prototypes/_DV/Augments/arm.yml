@@ -5,7 +5,7 @@
   abstract: true
   components:
   - type: Organ
-    slotId: armImplant
+    slotId: armImplantrwar
   - type: AugmentArm
 
 - type: entity
