@@ -20061,3 +20061,12 @@ Entries:
   id: 2212
   time: '2026-04-17T17:00:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3798
+- author: OneZerooo0
+  changes:
+    - type: Add
+      message: Added a new guidebook page for the TSFMC.
+    - type: Tweak
+      message: Guidebook got a little bit more organized.
+  id: 2213
+  time: '2026-04-17T20:42:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3814
