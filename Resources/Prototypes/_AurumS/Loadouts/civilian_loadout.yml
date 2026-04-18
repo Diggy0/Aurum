@@ -125,3 +125,10 @@
   equipment:
     back: ClothingModsuitResearchDirectorPowerCell
 
+# Civilian Hats
+
+- type: loadout
+  id: FishermanCap
+  price: 0
+  equipment:
+    head: ClothingHeadHatFishermanCap

@@ -8,3 +8,14 @@
     sprite: _AurumS/Clothing/Head/Hats/one_star_captaincap.rsi
   - type: Clothing
     sprite: _AurumS/Clothing/Head/Hats/one_star_captaincap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFishermanCap
+  name: fisherman cap
+  description: You won't need to worry about the sun with a brim like this! Wields a powerful poem.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/Head/Hats/fishercap.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/Head/Hats/fishercap.rsi
