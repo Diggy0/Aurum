@@ -20163,3 +20163,12 @@ Entries:
   id: 2222
   time: '2026-04-20T00:06:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3842
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked L6/Grizzly/Ratel (slight accuracy buffs, faster wielding, etc)
+        stats to be more useful compared to an actual rifle.
+  id: 2223
+  time: '2026-04-20T00:07:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3832
