@@ -20286,3 +20286,12 @@ Entries:
   id: 2235
   time: '2026-04-22T18:19:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3856
+- author: EldritchPineapple
+  changes:
+    - type: Tweak
+      message: >-
+        A deep-space mining station has now been weathered by monolithic
+        radiation fields.
+  id: 2236
+  time: '2026-04-22T21:46:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3419
