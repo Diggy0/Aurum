@@ -20244,3 +20244,24 @@ Entries:
   id: 2231
   time: '2026-04-21T22:24:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3848
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Tea visual layers don't cause errors now.
+    - type: Fix
+      message: Shields are less laggy.
+    - type: Fix
+      message: >-
+        Shields now take the full damage of any explosive projectile explosion
+        they block.
+    - type: Tweak
+      message: >-
+        Shield durability and recharge buffed dramatically to compensate for
+        taking much more damage now.
+    - type: Tweak
+      message: >-
+        Examining a shield generator now tells you the exact wattage it is
+        consuming from both base consumption and damage.
+  id: 2232
+  time: '2026-04-22T02:22:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3596
