@@ -20342,3 +20342,16 @@ Entries:
   id: 2242
   time: '2026-04-23T01:18:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3566
+- author: Loldaddy5676
+  changes:
+    - type: Add
+      message: added 3 new drones to the ravagers drone shipyard
+    - type: Tweak
+      message: Changed armor values on the soldat and bulwark suit
+    - type: Tweak
+      message: bofors removed in exchange for tarnyx, and 20mm replaced with phalanx
+    - type: Tweak
+      message: thorax docking glitch fixed, it also has improvements
+  id: 2243
+  time: '2026-04-23T01:49:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3203
