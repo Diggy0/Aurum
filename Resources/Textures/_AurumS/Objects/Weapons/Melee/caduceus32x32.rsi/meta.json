@@ -8,13 +8,13 @@
     },
     "states": [
 		{
-            "name": "index_vial_fpoon",
+            "name": "index_vial_fpoon"
         },
 		{
-            "name": "index_vial_hatchet",
+            "name": "index_vial_hatchet"
         },
 		{
-            "name": "index_vial_inactive",
+            "name": "index_vial_inactive"
         },
         {
             "name": "index_vial_inactive-lefthand",

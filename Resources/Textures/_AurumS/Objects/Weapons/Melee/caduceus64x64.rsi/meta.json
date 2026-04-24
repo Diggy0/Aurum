@@ -8,13 +8,13 @@
     },
     "states": [
 		{
-            "name": "index_vial_gsword",
+            "name": "index_vial_gsword"
         },
 		{
-            "name": "index_vial_scythe",
+            "name": "index_vial_scythe"
         },
 		{
-            "name": "index_vial_lance",
+            "name": "index_vial_lance"
         },
         {
             "name": "index_vial_gsword-righthand",

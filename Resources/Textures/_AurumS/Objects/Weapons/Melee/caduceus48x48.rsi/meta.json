@@ -8,19 +8,19 @@
     },
     "states": [
 		{
-            "name": "index_vial_bsword",
+            "name": "index_vial_bsword"
         },
 		{
-            "name": "index_vial_hammer",
+            "name": "index_vial_hammer"
         },
 		{
-            "name": "index_vial_lance",
+            "name": "index_vial_lance"
         },
 		{
-            "name": "index_vial_rapier",
+            "name": "index_vial_rapier"
         },
 		{
-            "name": "index_vial_stiletto",
+            "name": "index_vial_stiletto"
         },
         {
             "name": "index_vial_stiletto-righthand",
