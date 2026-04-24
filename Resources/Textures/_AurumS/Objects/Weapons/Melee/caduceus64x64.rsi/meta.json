@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "license":  "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/Lobotomy-Corporation-13/lc13"
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+		{
+            "name": "index_vial_gsword",
+        },
+		{
+            "name": "index_vial_scythe",
+        },
+		{
+            "name": "index_vial_lance",
+        },
+        {
+            "name": "index_vial_gsword-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_gsword-lefthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_lance-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_lance-lefthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_scythe-lefthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_scythe-righthand",
+            "directions": 4
+        }
+    ]
+}

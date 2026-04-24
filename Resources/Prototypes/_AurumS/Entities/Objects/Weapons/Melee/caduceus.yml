@@ -1,0 +1,69 @@
+# Caduceus
+
+- type: entity
+  name: wonderprod
+  parent: [BaseItem, BaseMajorContraband]
+  id: Caduceus
+  description: A vial of what looks like liquid metal capable of changing its shape and mass, its qualities resembling weapons from the old Mansus cults. An unparalleled weapon, but a curse on the one who wields it, there's a present, yet faint beeping while wielding it. As my god commands.
+  components:
+  - type: WeaponCaseInsertable # Frontier
+  - type: Item
+    size: Small
+  - type: UseDelay
+    delay: 6 # Switching between modes of the Caduceus should be slow and meaningful.
+  - type: Item
+    sprite: _AurumS/Objects/Weapons/Melee/caduceus32x32.rsi
+  - type: Sprite
+    sprite: _AurumS/Objects/Weapons/Melee/caduceus32x32.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 2 # It's like a iron stick in it's base form.
+    damage:
+      types:
+        Blunt: 1.5 # Iron stick in base form
+  - type: ItemSwitch
+    state: stun
+    showLabel: true
+    states:
+      fpoon: !type:ItemSwitchState
+        verb: fpoon?
+        sprite:
+          sprite: _AurumS/Objects/Weapons/Melee/caduceus32x32.rsi
+          state: index_vial_fpoon
+        components:
+        - type: MeleeWeapon
+          wideAnimationRotation: -135
+          attackRate: 3
+          damage:
+            types:
+              Piercing: 1
+
+      hatchet: !type:ItemSwitchState
+        verb: hatchet
+        sprite:
+          sprite: _AurumS/Objects/Weapons/Melee/caduceus32x32.rsi
+          state: index_vial_hatchet
+        components:
+        - type: MeleeWeapon
+          wideAnimationRotation: -135
+          attackRate: 1.8
+          damage:
+            types:
+              Slash: 4
+
+      stiletto: !type:ItemSwitchState
+        verb: stiletto
+        sprite:
+          sprite: _AurumS/Objects/Weapons/Melee/caduceus48x48.rsi
+          state: index_vial_stiletto
+        components:
+        - type: MeleeWeapon
+          wideAnimationRotation: -135
+          attackRate: 1.8
+          damage:
+            types:
+              Piercing: 4
+
+
+

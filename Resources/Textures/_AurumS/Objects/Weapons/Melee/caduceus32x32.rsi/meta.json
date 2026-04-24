@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "license":  "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/Lobotomy-Corporation-13/lc13"
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+		{
+            "name": "index_vial_fpoon",
+        },
+		{
+            "name": "index_vial_hatchet",
+        },
+		{
+            "name": "index_vial_inactive",
+        },
+        {
+            "name": "index_vial_inactive-lefthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_inactive-righthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_hatchet-lefthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_hatchet-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_fpoon-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_fpoon-lefthand",
+            "directions": 4
+        }
+    ]
+}

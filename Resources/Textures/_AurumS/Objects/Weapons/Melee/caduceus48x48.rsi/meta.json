@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "license":  "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/Lobotomy-Corporation-13/lc13"
+    "size": {
+        "x": 48,
+        "y": 48
+    },
+    "states": [
+		{
+            "name": "index_vial_bsword",
+        },
+		{
+            "name": "index_vial_hammer",
+        },
+		{
+            "name": "index_vial_lance",
+        },
+		{
+            "name": "index_vial_rapier",
+        },
+		{
+            "name": "index_vial_stiletto",
+        },
+        {
+            "name": "index_vial_stiletto-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_stiletto-lefthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_bsword-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_bsword-lefthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_rapier-righthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_rapier-lefthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_hammer-lefthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_hammer-righthand",
+            "directions": 4
+        },
+        {
+            "name": "index_vial_whip-lefthand",
+            "directions": 4
+        },
+		{
+            "name": "index_vial_whip-righthand",
+            "directions": 4
+        }
+    ]
+}
