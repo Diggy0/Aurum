@@ -477,9 +477,6 @@
 - type: Tag
   id: TechDiskMono
 
-- type: Tag
-  id: ResearchDisk10000
-
 # survival kit
 
 - type: Tag
