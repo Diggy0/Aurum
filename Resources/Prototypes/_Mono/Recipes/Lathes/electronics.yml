@@ -88,13 +88,6 @@
   id: LargeThrusterMachineCircuitboard
   result: LargeThrusterMachineCircuitboard
 
-# Datafarm
-
-- type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
-  id: DataFarmResearchCircuitboard
-  result: DataFarmResearchCircuitboard
-
 # economy
 
 - type: latheRecipe
